@@ -7,14 +7,18 @@ def add_item(item_name,price):
     prices.append(int(price))
 
 def view_cart():
-    for i in items:
-        print(i)
+    # for i in items:
+    #     print(i)
+    print("Cart contains following items: ")
+    for i in range(total_items):
+        print(items[i],end=" ")
+        print(prices[i])
 
 def total_cart_value():
     return sum(prices)
 
 while True:
-    print("\n1. Add Items\n2. View cart Items.\n3. Calculate the total price\n4. Exit")
+    print("1. Add Items\n2. View cart Items.\n3. Calculate the total price\n4. Exit")
     option=int(input())
     if(option>4):
         print("Invalid Option")
@@ -38,4 +42,5 @@ while True:
     
     else:
         print("Invalid Option")
+    print()
     
