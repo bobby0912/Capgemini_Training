@@ -1,27 +1,36 @@
-print("Enter a string :")
-s=input()
+def analyzeString(s):
+    vowels=consonants=digits=special_chars=0
 
-vowels=0
-consonants=0
-digits=0
-special_chars=0
-# vowel_string="aeiouAEIOU"
-
-for i in s:
-    # print(ord(i))
-    if(i>="0" and i<"9"):
-        digits+=1
-    elif(ord(i)>=ord("a") and ord(i)<=ord("z")) or (ord(i)>=ord("A") and ord(i)<=ord("Z")):
-        if(i=='a' or i=='A' or i=='e' or i=='E'or i=='i' or i=='I'or i=='o' or i=='O'or i=='u' or i=='U'):
-            vowels+=1
+    for i in s:
+        if(i.isdigit()):
+            digits+=1
+        elif i.isalpha():
+            if(i=='a' or i=='A' or i=='e' or i=='E'or i=='i' or i=='I'or i=='o' or i=='O'or i=='u' or i=='U'):
+                vowels+=1
+            else:
+                consonants+=1
+        
         else:
-            consonants+=1
+            special_chars+=1
+    return vowels,consonants,digits,special_chars
     
-    else:
-        special_chars+=1
+def reverseString(s):
+    return s[::-1]
+    
+def main():
+    try:
+        print("Enter a string :")
+        s=input()
+        vowels,consonants,digits,special_chars=analyzeString(s)
+        print(f"Total vowels : {vowels}")
+        print(f"Total consonants : {consonants}")
+        print(f"Total digits : {digits}")
+        print(f"Total special Characters : {special_chars}")
+        print("Reversed String : ",{reverseString(s)})
+        
+    except ValueError as e: 
+        print(f"Invalid Input {e}")
+        return
 
-print(f"Total vowels : {vowels}")
-print(f"Total consonants : {consonants}")
-print(f"Total digits : {digits}")
-print(f"Total special Characters : {special_chars}")
-print(s[::-1])
+if __name__ == "__main__":
+    main()

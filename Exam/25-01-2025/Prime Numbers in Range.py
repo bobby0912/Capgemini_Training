@@ -6,9 +6,18 @@ def isPrime(num):
             return False
     return True
 
-print("Enter two numbers: ")
-a,b=map(int,input().split())
+def main():
+    try:
+        print("Enter two numbers: ")
+        a,b=map(int,input().split())
 
-for i in range(a,b):
-    if isPrime(i)==True:
-        print(f"{i} is a prime number.")
+        for i in range(a,b):
+            if isPrime(i)==True:
+                print(f"{i} is a prime number.")
+                
+    except ValueError as e:
+        print(f"Invalid Input {e}")
+        return
+    
+if __name__ == "__main__":
+    main()

@@ -17,30 +17,38 @@ def view_cart():
 def total_cart_value():
     return sum(prices)
 
-while True:
-    print("1. Add Items\n2. View cart Items.\n3. Calculate the total price\n4. Exit")
-    option=int(input())
-    if(option>4):
-        print("Invalid Option")
-        continue
+def main():
+    try:
+        while True:
+            print("1. Add Items\n2. View cart Items.\n3. Calculate the total price\n4. Exit")
+            option=int(input())
+            if(option>4):
+                print("Invalid Option")
+                continue
 
-    if(option==1):
-        print("Enter item and price: ")
-        item_name,price=input().split()
-        add_item(item_name,price)
-        total_items+=1
+            if(option==1):
+                print("Enter item and price: ")
+                item_name,price=input().split()
+                add_item(item_name,price)
+                total_items+=1
 
-    elif(option==2):
-        view_cart()
-            # print(f"{{items[i]}   {prices[i]}}")
+            elif(option==2):
+                view_cart()
+            
+            elif(option==3):
+                print(f"Total cart value: {total_cart_value()}")
+            
+            elif(option==4):
+                break
+            
+            else:
+                print("Invalid Option")
+            print()
+            
+    except ValueError as e:
+        print(f"Invalid Input {e}")
+        return
     
-    elif(option==3):
-        print(f"Total cart value: {total_cart_value()}")
-    
-    elif(option==4):
-        break
-    
-    else:
-        print("Invalid Option")
-    print()
-    
+if __name__ == "__main__":
+    main()
+            
