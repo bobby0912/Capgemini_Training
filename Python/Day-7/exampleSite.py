@@ -8,7 +8,7 @@ class Orders:
     static_var=100
     def __init__(self,**kwargs):
         self.order_id=self.static_var
-        Orders.static_var+=1
+        Orders.static_var+=1    
         self.orderStatus='confrimed'
         self.orderDate=dt.datetime.now()
         if 'items' in kwargs:
