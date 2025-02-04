@@ -7,8 +7,10 @@ db=mysql.connector.connect(
 )
 
 c=db.cursor()
-
-c.execute("show databases")
+# 
+# c.execute("show databases;")
+# c.execute("create database department;")
+c.execute("show databases;")
 
 for i in c:
     print(i)
