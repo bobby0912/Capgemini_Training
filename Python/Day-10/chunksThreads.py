@@ -1,16 +1,17 @@
-import threading 
+import threading
 
-chunks=[]
-n=int(input("Enter n to calculate sum of n values: "))
-limit=0
-n+=1
-while(n>=1000):
-    chunks.append(list(range(limit,limit+1000)))
+
+chunks = []
+n = int(input("Enter n to calculate sum of n values: "))
+limit = 0
+n += 1
+while (n >= 1000):
+    chunks.append(list(range(limit, limit+1000)))
     print(f"limit added {limit}, {limit+1000}")
-    limit+=1000
-    n-=1000
-if(n!=0):
-    chunks.append(list(range(limit,limit+n)))
+    limit += 1000
+    n -= 1000
+if (n != 0):
+    chunks.append(list(range(limit, limit+n)))
     print(f"limit added {limit}, {limit+n}")
 
 
