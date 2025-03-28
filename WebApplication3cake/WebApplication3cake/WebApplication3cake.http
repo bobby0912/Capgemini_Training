@@ -1,0 +1,6 @@
+@WebApplication3cake_HostAddress = http://localhost:5057
+
+GET {{WebApplication3cake_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
