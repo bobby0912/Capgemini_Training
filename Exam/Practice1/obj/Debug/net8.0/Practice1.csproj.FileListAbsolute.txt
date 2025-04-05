@@ -1,0 +1,15 @@
+C:\Capgemini_Training\Exam\Practice1\bin\Debug\net8.0\Practice1.exe
+C:\Capgemini_Training\Exam\Practice1\bin\Debug\net8.0\Practice1.deps.json
+C:\Capgemini_Training\Exam\Practice1\bin\Debug\net8.0\Practice1.runtimeconfig.json
+C:\Capgemini_Training\Exam\Practice1\bin\Debug\net8.0\Practice1.dll
+C:\Capgemini_Training\Exam\Practice1\bin\Debug\net8.0\Practice1.pdb
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.AssemblyInfoInputs.cache
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.AssemblyInfo.cs
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.csproj.CoreCompileInputs.cache
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.sourcelink.json
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.dll
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\refint\Practice1.dll
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.pdb
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
+C:\Capgemini_Training\Exam\Practice1\obj\Debug\net8.0\ref\Practice1.dll

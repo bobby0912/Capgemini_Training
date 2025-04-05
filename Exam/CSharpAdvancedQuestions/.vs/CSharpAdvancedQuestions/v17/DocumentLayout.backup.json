@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_Training\\Azure\\StudentManagement\\CSharpAdvancedQuestions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC11661-67B9-4185-B57D-B1A437B6657F}|CSharpAdvancedQuestions.csproj|c:\\capgemini_training\\azure\\studentmanagement\\csharpadvancedquestions\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC11661-67B9-4185-B57D-B1A437B6657F}|CSharpAdvancedQuestions.csproj|solutionrelative:question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC11661-67B9-4185-B57D-B1A437B6657F}|CSharpAdvancedQuestions.csproj|c:\\capgemini_training\\azure\\studentmanagement\\csharpadvancedquestions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC11661-67B9-4185-B57D-B1A437B6657F}|CSharpAdvancedQuestions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question1.cs",
+              "DocumentMoniker": "C:\\Capgemini_Training\\Azure\\StudentManagement\\CSharpAdvancedQuestions\\Question1.cs",
+              "RelativeDocumentMoniker": "Question1.cs",
+              "ToolTip": "C:\\Capgemini_Training\\Azure\\StudentManagement\\CSharpAdvancedQuestions\\Question1.cs",
+              "RelativeToolTip": "Question1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:08:56.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_Training\\Azure\\StudentManagement\\CSharpAdvancedQuestions\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_Training\\Azure\\StudentManagement\\CSharpAdvancedQuestions\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:08:36.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
